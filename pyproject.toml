@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-outpaint-target"
+description = "Outpaint to an exact resolution or aspect ratio without calculating padding, and paste the untouched original back so faces stay identical."
+version = "1.1.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/nigelimmanuel/comfyui-outpaint-target"
+
+[tool.comfy]
+PublisherId = "YOUR_PUBLISHER_ID"
+DisplayName = "Outpaint to Target"
+Icon = ""
